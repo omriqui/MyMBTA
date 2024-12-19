@@ -1,17 +1,19 @@
 body {
-    background-color: #FFFFFF;
+    background-image: url(../img/tile.gif);
     color: #0000FF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: helvetica, helvetica neue, arial, sans-serif;
     font-size: 25px;
 }
 
 h4 {margin-top: -5px;}
 h5 {margin-top: -30px;}
+p {}
 
 .unofficial-disclaimer {
     background: #e3a5f2;
     font-size: 20px;
     color: #661172;
+    font-style: italic;
     padding-bottom: 100px;
     border-bottom-width: 5px;
     border-bottom-color: #000000;
@@ -21,3 +23,7 @@ h5 {margin-top: -30px;}
     margin: -8px;
     padding: 8px;
 }
+
+a:visited {color:#0000AA}
+
+a:hover, a:focus {color: #7700AA}
