@@ -1,7 +1,7 @@
 body {
     background-image: url(../img/tile.gif);
     color: #0000FF;
-    font-family: helvetica, helvetica neue, arial, sans-serif;
+    font-family: Helvetica, "Helvetica Neue", Inter, Arial, sans-serif;
     font-size: 25px;
     position: relative;
     margin: 0;
@@ -12,7 +12,7 @@ body {
 h4 {margin-top: -5px;}
 h5 {margin-top: -30px;}
 p {}
-
+ß
 .unofficial-disclaimer {
     background: #e3a5f2;
     font-size: 20px;
