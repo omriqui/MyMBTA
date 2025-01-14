@@ -1,3 +1,10 @@
+* {box-sizing: inherit;}
+
+html {
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(../img/tile.gif);
     color: #0000FF;
@@ -5,19 +12,57 @@ body {
     font-size: 25px;
     position: relative;
     margin: 0;
-    padding: 4px;
-    min-height: calc(100vh - (1em + 16px));
+    padding: 0;
+    min-height: 100vh;
+    height: 100%;
+}
+
+main {
+    margin: 8px
 }
 
 h4 {margin-top: -5px;}
 h5 {margin-top: -30px;}
-p {}
+
+.container {
+    min-height: 100vh;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.NavBar {
+    background: #2222CC;
+    width: 100vw;
+}
+
+.NavLinkDiv {
+    margin: 8px;
+    padding: 4px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #9999FF;
+    float: left;
+}
+
+.NavLink {
+    color: #FFFFFF}
+    /*links in NavBarLink*/
+    .NavLinkDiv a:visited {color: #ffffff}
+    .NavLinkDiv a:hover, .NavLinkDiv a:focus {
+        color: #DDBBFF; 
+        background-color: #000099;}
+
+.NavLinkEnd {
+    clear: left;
+}
 
 .unofficial-disclaimer {
     background: #e3a5f2;
     font-size: 20px;
     color: #661172;
     font-style: italic;
+    width: 100vw;
     padding-bottom: 100px;
     border-bottom-width: 5px;
     border-bottom-color: #000000;
@@ -26,15 +71,13 @@ p {}
 .copyright {
     margin-top: 8px;
     text-align: center;
-    position: absolute;
-    bottom: calc(-1*(1rem + 16px));
-    width: 100%;
+    width: 100vw;
     background: #000000;
     font-size: 15px;
     color: #FFFFFF;}
 
 .nomargin-yespadding {
-    margin: -8px;
+    /* margin: -8px; */
     padding: 8px;
 }
 
