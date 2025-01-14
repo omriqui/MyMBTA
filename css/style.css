@@ -51,6 +51,8 @@ h5 {margin-top: -30px;}
     .NavLinkDiv a:visited {color: #ffffff}
     .NavLinkDiv a:hover, .NavLinkDiv a:focus {
         color: #DDBBFF; 
+        margin: -4px;
+        padding: 4px;
         background-color: #000099;}
 
 .NavLinkEnd {
