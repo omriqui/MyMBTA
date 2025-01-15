@@ -38,7 +38,7 @@ h5 {margin-top: -30px;}
 
 .NavBar {
     background: #2222CC;
-    width: 100vw;
+    width: 100%;
 }
 
 .NavLinkDiv {
@@ -69,7 +69,7 @@ h5 {margin-top: -30px;}
     font-size: 20px;
     color: #661172;
     font-style: italic;
-    width: 100vw;
+    width: 100%;
     padding-bottom: 100px;
     border-bottom-width: 5px;
     border-bottom-color: #000000;
@@ -78,7 +78,7 @@ h5 {margin-top: -30px;}
 .copyright {
     margin-top: 8px;
     text-align: center;
-    width: 100vw;
+    width: 100%;
     background: #000000;
     font-size: 15px;
     color: #FFFFFF;}
